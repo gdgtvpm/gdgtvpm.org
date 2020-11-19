@@ -1,0 +1,68 @@
+.SectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.SectionHeading {
+  position: relative;
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 30px;
+  margin: 0 0 0.5rem;
+}
+
+.SectionHeading:after {
+  content: "";
+  left: 0%;
+  bottom: 0;
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(to right, var(--link-active-color), var(--link-color) 70%);
+}
+
+.SectionDescription {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin: 3rem 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .SectionHeading {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .SectionHeader {
+    flex-direction: row;
+  }
+  .SectionHeading {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .SectionHeading:after {
+    left: -20%;
+  }
+  .SectionDescription {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 4rem;
+    padding-left: 3rem;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .Container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Container {
+    max-width: 1200px;
+  }
+} */

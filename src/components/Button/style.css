@@ -1,0 +1,51 @@
+.Button {
+  text-transform: uppercase;
+  color: var(--button-color);
+  background: var(--button-bg-color);
+  padding: 16px 30px;
+  display: inline-block;
+  letter-spacing: .2em;
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .15s transform ease-out;
+}
+
+.Button span {
+  position: relative;
+  z-index: 2;
+}
+
+.Button:after {
+  background: linear-gradient(to right, var(--link-active-color), var(--link-color) 70%);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 0;
+  transition: .2s all ease;
+  z-index: 1;
+  height: auto !important;
+}
+
+.Button:active {
+  transform: translateY(1px);
+}
+
+.Button:not(:disabled):hover {
+  color: var(--button-color);
+}
+
+.Button:hover:after {
+  width: 100%;
+}
+
+.Button__Selected {
+  cursor: default;
+}
+.Button__Selected:after {
+  background: var(--link-active-color);
+  width: 100%;
+}

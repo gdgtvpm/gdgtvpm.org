@@ -1,0 +1,54 @@
+.FadeIn {
+  opacity: 0.01;
+  transition-property: opacity, transform;
+  transition-duration: 0.8s;
+  transition-delay: 0s;
+}
+
+.FadeIn__Up,
+.FadeIn[data-direction="up"] {
+  transform: translateY(100px);
+}
+.FadeIn__Left,
+.FadeIn[data-direction="left"] {
+  transform: translateX(100px);
+}
+.FadeIn__Right,
+.FadeIn[data-direction="right"] {
+  transform: translateX(-100px);
+}
+
+.FadeIn__Init {
+  opacity: 1;
+}
+.FadeIn__Up.FadeIn__Init,
+.FadeIn__Init[data-direction="up"] {
+  transform: translateY(0);
+}
+.FadeIn__Left.FadeIn__Init,
+.FadeIn__Right.FadeIn__Init,
+.FadeIn__Init[data-direction="left"],
+.FadeIn__Init[data-direction="right"] {
+  transform: translateX(0);
+}
+
+.FadeIn.FadeIn__100,
+.FadeIn[data-delay="100"] {
+  transition-delay: 0.1s;
+}
+.FadeIn.FadeIn__200,
+.FadeIn[data-delay="200"] {
+  transition-delay: 0.2s;
+}
+.FadeIn.FadeIn__300,
+.FadeIn[data-delay="300"] {
+  transition-delay: 0.3s;
+}
+.FadeIn.FadeIn__400,
+.FadeIn[data-delay="400"] {
+  transition-delay: 0.4s;
+}
+.FadeIn.FadeIn__500,
+.FadeIn[data-delay="500"] {
+  transition-delay: 0.5s;
+}

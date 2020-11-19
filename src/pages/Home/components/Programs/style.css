@@ -1,0 +1,53 @@
+.ProgramDays {
+  padding: 3rem 15px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+}
+.ProgramDays button {
+  margin-right: 20px;
+}
+
+.ProgramItem {
+  padding: 3rem 15px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  color: var(--heading-color);
+}
+
+.ProgramTime {
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.ProgramHour {
+  font-size: 1.5rem;
+}
+.ProgramAM {
+  font-size: 1.2rem;
+}
+
+.ProgramTitle {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+}
+
+.ProgramSpeaker {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .ProgramItem {
+    flex-direction: row;
+  }
+
+  .ProgramTime {
+    margin-top: 0.5rem;
+  }
+
+  .ProgramDetails {
+    margin-left: 3rem;
+  }
+}

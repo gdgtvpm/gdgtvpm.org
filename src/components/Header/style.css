@@ -1,0 +1,29 @@
+.Header {
+  max-width: 1400px;
+  padding: 1rem 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  font-weight: 400;
+  flex: 0 0 16.66%;
+}
+
+.Logo a {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.Logo .GDG {
+  color: var(--heading-color);
+}
+
+.Logo .Community {
+  color: var(--link-color);
+}
+
+.Logo img {
+  width: 50px;
+}

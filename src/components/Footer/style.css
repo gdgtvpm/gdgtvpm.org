@@ -1,0 +1,20 @@
+.Footer {
+  background-color: #1b1d24;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.FooterCopyright {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .Footer {
+    padding: 8rem 0;
+    margin-top: 8rem;
+  }
+}

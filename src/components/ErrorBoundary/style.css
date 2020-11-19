@@ -1,0 +1,16 @@
+.ErrorContainer {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ErrorHeading {
+  font-size: 56px;
+  margin: 30px 0;
+}
+
+.ErrorMessage {
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 0;
+}
