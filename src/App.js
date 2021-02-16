@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <ErrorBoundary>
-        <Router basename="/gdgtvpm.org">
+        <Router>
           <Header />
           <Switch>
             <Route exact path="/">
