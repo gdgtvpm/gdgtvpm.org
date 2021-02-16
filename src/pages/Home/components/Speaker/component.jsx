@@ -7,7 +7,7 @@ export default function Speaker(props) {
   const imgRef = useRef();
   const [showMore, setShowMore] = useState(false);
 
-  const imgClassName = useFadeIn(imgRef, { threshold: [0.75], keep: true });
+  const imgClassName = useFadeIn(imgRef, { threshold: [0.75] });
 
   return (
     <div

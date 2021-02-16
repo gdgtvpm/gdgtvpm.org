@@ -39,7 +39,7 @@ const members = [
 
 export default function AboutUs() {
   const imgRef = useRef();
-  const imgClassName = useFadeIn(imgRef, { threshold: [0.75], keep: true });
+  const imgClassName = useFadeIn(imgRef, { keep: true });
 
   return (
     <Container>

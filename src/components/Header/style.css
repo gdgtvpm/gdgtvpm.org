@@ -9,11 +9,13 @@
 .Logo {
   font-weight: 400;
   flex: 1 0 16.66%;
+  font-size: 1rem;
 }
 
 .Logo a {
-  display: inline-block;
+  display: flex;
   white-space: nowrap;
+  align-items: center;
 }
 
 .Logo .GDG {
@@ -26,4 +28,17 @@
 
 .Logo img {
   width: 50px;
+  margin-right: 0.25rem;
+}
+
+@media (min-width: 380px) {
+  .Logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 648px) {
+  .Logo {
+    font-size: 2rem;
+  }
 }
