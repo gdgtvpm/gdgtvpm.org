@@ -1,2 +1,2 @@
-import loadable from '@loadable/component'
-export default loadable(() => import('./component'))
+import Home from './component';
+export default Home;
