@@ -3,13 +3,13 @@
     "main.css": "/gdgtvpm.org/static/css/main.4e276347.chunk.css",
     "main.js": "/gdgtvpm.org/static/js/main.e14a7372.chunk.js",
     "main.js.map": "/gdgtvpm.org/static/js/main.e14a7372.chunk.js.map",
-    "runtime-main.js": "/gdgtvpm.org/static/js/runtime-main.aee41411.js",
-    "runtime-main.js.map": "/gdgtvpm.org/static/js/runtime-main.aee41411.js.map",
+    "runtime-main.js": "/gdgtvpm.org/static/js/runtime-main.82444a2e.js",
+    "runtime-main.js.map": "/gdgtvpm.org/static/js/runtime-main.82444a2e.js.map",
     "static/js/2.63962d10.chunk.js": "/gdgtvpm.org/static/js/2.63962d10.chunk.js",
     "static/js/2.63962d10.chunk.js.map": "/gdgtvpm.org/static/js/2.63962d10.chunk.js.map",
     "static/css/3.5e039218.chunk.css": "/gdgtvpm.org/static/css/3.5e039218.chunk.css",
-    "static/js/3.2708ffeb.chunk.js": "/gdgtvpm.org/static/js/3.2708ffeb.chunk.js",
-    "static/js/3.2708ffeb.chunk.js.map": "/gdgtvpm.org/static/js/3.2708ffeb.chunk.js.map",
+    "static/js/3.c20e1379.chunk.js": "/gdgtvpm.org/static/js/3.c20e1379.chunk.js",
+    "static/js/3.c20e1379.chunk.js.map": "/gdgtvpm.org/static/js/3.c20e1379.chunk.js.map",
     "static/js/4.aa83522d.chunk.js": "/gdgtvpm.org/static/js/4.aa83522d.chunk.js",
     "static/js/4.aa83522d.chunk.js.map": "/gdgtvpm.org/static/js/4.aa83522d.chunk.js.map",
     "index.html": "/gdgtvpm.org/index.html",
@@ -19,7 +19,7 @@
     "static/media/img.e4605c62.png": "/gdgtvpm.org/static/media/img.e4605c62.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aee41411.js",
+    "static/js/runtime-main.82444a2e.js",
     "static/js/2.63962d10.chunk.js",
     "static/css/main.4e276347.chunk.css",
     "static/js/main.e14a7372.chunk.js"
