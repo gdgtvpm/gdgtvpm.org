@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gdgtvpm.org/static/css/main.4e276347.chunk.css",
-    "main.js": "/gdgtvpm.org/static/js/main.5ca0034c.chunk.js",
-    "main.js.map": "/gdgtvpm.org/static/js/main.5ca0034c.chunk.js.map",
+    "main.js": "/gdgtvpm.org/static/js/main.91dbc26d.chunk.js",
+    "main.js.map": "/gdgtvpm.org/static/js/main.91dbc26d.chunk.js.map",
     "runtime-main.js": "/gdgtvpm.org/static/js/runtime-main.207f40a1.js",
     "runtime-main.js.map": "/gdgtvpm.org/static/js/runtime-main.207f40a1.js.map",
     "static/js/2.2a29988e.chunk.js": "/gdgtvpm.org/static/js/2.2a29988e.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.207f40a1.js",
     "static/js/2.2a29988e.chunk.js",
     "static/css/main.4e276347.chunk.css",
-    "static/js/main.5ca0034c.chunk.js"
+    "static/js/main.91dbc26d.chunk.js"
   ]
 }
