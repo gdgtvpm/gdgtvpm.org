@@ -34,12 +34,19 @@ export default function Hero() {
             Celebrating
           </span>
           <h1 ref={headingRef} className={headingClassName + " Heading"}>
-            Our Eighth Year<br /> Anniversary
+            Our Eighth Year
+            <br /> Anniversary
           </h1>
           <span ref={venueRef} className={venueClassName + " Venue"}>
             Series of events every month from Mar 6th.
           </span>
-          <Button ref={registerRef} href="/" className={registerClassName}>
+          <Button
+            ref={registerRef}
+            href="https://gdg.community.dev/events/details/google-gdg-thiruvananthapuram-presents-ais-role-during-a-pandemic-by-senthil-kumar-anniversary-event-series-day-1/"
+            className={registerClassName}
+            target="_blank"
+            rel="noreferrer"
+          >
             Register Now
           </Button>
         </div>

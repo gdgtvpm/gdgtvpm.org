@@ -12,7 +12,7 @@ function App() {
         <Router basename="/gdgtvpm.org">
           <Header />
           <Switch>
-            <Route exact path="/gdgtvpm.org">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route path="*">

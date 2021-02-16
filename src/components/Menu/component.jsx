@@ -61,6 +61,15 @@ export default function Menu() {
     }
   }, [display, open]);
 
+  const onClick = (e, to) => {
+    e.preventDefault();
+    setOpen(false);
+
+    const el = document.querySelector('#'+to);
+
+    el && el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
   return (
     <nav className="Nav">
       {display === "mobile" ? (
@@ -97,23 +106,28 @@ export default function Menu() {
           </button>
         ) : null}
         <ul className={display === "mobile" ? "NavMobile" : "NavDekstop"}>
-          <li className="NavActive">
-            <a className="Link" href="/" onClick={() => setOpen(false)}>
-              Home
+          <li>
+            <a className="Link" href="#Programs" onClick={(e) => onClick(e, 'Programs')}>
+              Programs
             </a>
           </li>
           <li>
-            <a className="Link" href="/" onClick={() => setOpen(false)}>
+            <a className="Link" href="/" onClick={(e) => onClick(e, 'Speakers')}>
               Speakers
             </a>
           </li>
           <li>
-            <a className="Link" href="/" onClick={() => setOpen(false)}>
+            <a className="Link" href="/" onClick={(e) => onClick(e, 'AboutUs')}>
               About Us
             </a>
           </li>
           <li className="cta">
-            <a className="Link" href="/" onClick={() => setOpen(false)}>
+            <a
+              className="Link"
+              href="https://gdg.community.dev/events/details/google-gdg-thiruvananthapuram-presents-ais-role-during-a-pandemic-by-senthil-kumar-anniversary-event-series-day-1/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Register Now
             </a>
           </li>

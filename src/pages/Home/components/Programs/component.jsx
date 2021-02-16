@@ -31,31 +31,45 @@ export default function Programs() {
   const [day, setDay] = useState(1);
   const day1programs = [
     {
-      time: "8:00",
+      time: "10:00",
       am: "AM",
-      title: "Design your open source strategy",
-      speakers: ["Chris Mathews"],
+      title: "AI's role in pandemic",
+      speakers: ["Senthil ​Kumar"],
     },
-    {
-      time: "9:30",
-      am: "AM",
-      title: "Design your open source strategy",
-      speakers: ["Chris Mathews"],
-    },
+    // {
+    //   time: "9:30",
+    //   am: "AM",
+    //   title: "Design your open source strategy",
+    //   speakers: ["Chris Mathews"],
+    // },
   ];
   const day2programs = [
     {
-      time: "9:00",
+      time: "10:00",
       am: "AM",
-      title: "Design your UX strategy",
-      speakers: ["Chris Mathews"],
+      title: "TBD",
+      speakers: ["TBD"],
     },
+    // {
+    //   time: "10:30",
+    //   am: "AM",
+    //   title: "Design your UX strategy",
+    //   speakers: ["Chris Mathews"],
+    // },
+  ];
+  const day3programs = [
     {
-      time: "10:30",
+      time: "10:00",
       am: "AM",
-      title: "Design your UX strategy",
-      speakers: ["Chris Mathews"],
+      title: "TBD",
+      speakers: ["TBD"],
     },
+    // {
+    //   time: "10:30",
+    //   am: "AM",
+    //   title: "Design your UX strategy",
+    //   speakers: ["Chris Mathews"],
+    // },
   ];
 
   const ref = useRef();
@@ -65,11 +79,24 @@ export default function Programs() {
     delay: 100,
   });
 
+  const getDay = () => {
+    switch(day) {
+      case 1:
+        return day1programs;
+      case 2:
+        return day2programs;
+      case 3:
+        return day3programs;
+      default:
+        return [];
+    }
+  }
+
   return (
     <Container>
       <SectionHeader
         title="Programs"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi."
+        description="A virtual event series happening on weekends that you can attend from the comforts of your homes."
       />
       <div ref={ref} className={refClassName + " ProgramDays"}>
         <Button type="button" onClick={() => setDay(1)} selected={day === 1}>
@@ -82,7 +109,7 @@ export default function Programs() {
           Next
         </Button>
       </div>
-      {(day === 1 ? day1programs : day2programs).map((item, index) => (
+      {getDay().map((item, index) => (
         <Program key={index} {...item} />
       ))}
     </Container>

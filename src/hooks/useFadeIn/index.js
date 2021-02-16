@@ -15,7 +15,7 @@ export default function useFadeIn(ref, { threshold, direction, delay, keep }) {
       dir = "FadeIn__Up";
       break;
     default:
-      dir = "";
+      dir = "FadeIn__Up";
       break;
   }
   const time = ["100", "200", "300", "400", "500"].includes(delay)

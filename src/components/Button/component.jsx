@@ -16,7 +16,7 @@ export default forwardRef(function Button(props, ref) {
   }
 
   return (
-    <a ref={ref} href={props.href} className={`Button ${props.className}`}>
+    <a ref={ref} {...props} className={`Button ${props.className}`}>
       <span>{props.children}</span>
     </a>
   );

@@ -9,6 +9,10 @@
 .FadeIn[data-direction="up"] {
   transform: translateY(100px);
 }
+.FadeIn__Down,
+.FadeIn[data-direction="down"] {
+  transform: translateY(-100px);
+}
 .FadeIn__Left,
 .FadeIn[data-direction="left"] {
   transform: translateX(100px);
@@ -22,7 +26,9 @@
   opacity: 1;
 }
 .FadeIn__Up.FadeIn__Init,
-.FadeIn__Init[data-direction="up"] {
+.FadeIn__Init[data-direction="up"],
+.FadeIn__Down.FadeIn__Init,
+.FadeIn__Init[data-direction="down"] {
   transform: translateY(0);
 }
 .FadeIn__Left.FadeIn__Init,

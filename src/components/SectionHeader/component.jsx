@@ -17,7 +17,7 @@ export default function SectionHeader(props) {
 
   return (
     <div className="SectionHeader">
-      <h2 ref={headingRef} className={headingClassName + " SectionHeading"}>{props.title}</h2>
+      <h2 id={props.title.replace(' ', '')} ref={headingRef} className={headingClassName + " SectionHeading"}>{props.title}</h2>
       <p ref={descripRef} className={descripClassName + " SectionDescription"}>{props.description}</p>
     </div>
   );

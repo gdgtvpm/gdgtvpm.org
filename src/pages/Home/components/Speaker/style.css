@@ -60,16 +60,28 @@
 }
 .SpeakerFollow path {
   fill: var(--link-color);
-  transition: .15s fill ease-out;
+  transition: 0.15s fill ease-out;
 }
 .SpeakerFollow a:hover path {
   fill: var(--link-hover-color);
 }
 
+.SpeakerWrap {
+  display: -webkit-box;
+  -webkit-line-clamp: 13;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.SpeakerWrapShow {
+  padding: 10px;
+  margin-top: 1.5rem;
+}
+
 @media (min-width: 992px) {
   .Speaker {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
   .Speaker__Right {
     flex-direction: row-reverse;
@@ -90,8 +102,12 @@
   }
 
   .SpeakerTitle,
-  .SpeakerDescrip,
+  .SpeakerWrap,
   .SpeakerFollow {
     padding-left: 3rem;
+  }
+
+  .SpeakerWrapShow {
+    margin-left: 3rem;
   }
 }

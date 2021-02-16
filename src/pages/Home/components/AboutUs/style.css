@@ -1,0 +1,74 @@
+.Member {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.MemberItem {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 3rem
+}
+
+.MemberImg {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  overflow: hidden;
+}
+.MemberImg img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+  opacity: 0.5;
+  transition: 0.5s all ease;
+}
+.MemberImg:hover img {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.MemberName,
+.MemberTitle {
+  position: relative;
+  transition: 0.35s all ease;
+}
+.MemberName {
+  font-size: 2rem;
+  color: var(--heading-color);
+  margin: 0 0 0.1rem;
+}
+.MemberTitle {
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--link-color);
+  padding-right: 40px;
+}
+
+@media (min-width: 992px) {
+  .MemberItem {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .MemberName {
+    top: -55px;
+    left: 10px;
+  }
+
+  .MemberTitle {
+    top: -50px;
+    left: 10px;
+  }
+
+  .MemberItem:hover .MemberName,
+  .MemberItem:hover .MemberTitle {
+    top: 0px;
+  }
+}
