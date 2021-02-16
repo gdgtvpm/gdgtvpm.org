@@ -1,27 +1,32 @@
 {
   "files": {
     "main.css": "/gdgtvpm.org/static/css/main.4e276347.chunk.css",
-    "main.js": "/gdgtvpm.org/static/js/main.b8cd2f04.chunk.js",
-    "main.js.map": "/gdgtvpm.org/static/js/main.b8cd2f04.chunk.js.map",
-    "runtime-main.js": "/gdgtvpm.org/static/js/runtime-main.82444a2e.js",
-    "runtime-main.js.map": "/gdgtvpm.org/static/js/runtime-main.82444a2e.js.map",
-    "static/js/2.63962d10.chunk.js": "/gdgtvpm.org/static/js/2.63962d10.chunk.js",
-    "static/js/2.63962d10.chunk.js.map": "/gdgtvpm.org/static/js/2.63962d10.chunk.js.map",
-    "static/css/3.5e039218.chunk.css": "/gdgtvpm.org/static/css/3.5e039218.chunk.css",
-    "static/js/3.c20e1379.chunk.js": "/gdgtvpm.org/static/js/3.c20e1379.chunk.js",
-    "static/js/3.c20e1379.chunk.js.map": "/gdgtvpm.org/static/js/3.c20e1379.chunk.js.map",
-    "static/js/4.aa83522d.chunk.js": "/gdgtvpm.org/static/js/4.aa83522d.chunk.js",
-    "static/js/4.aa83522d.chunk.js.map": "/gdgtvpm.org/static/js/4.aa83522d.chunk.js.map",
+    "main.js": "/gdgtvpm.org/static/js/main.5ca0034c.chunk.js",
+    "main.js.map": "/gdgtvpm.org/static/js/main.5ca0034c.chunk.js.map",
+    "runtime-main.js": "/gdgtvpm.org/static/js/runtime-main.207f40a1.js",
+    "runtime-main.js.map": "/gdgtvpm.org/static/js/runtime-main.207f40a1.js.map",
+    "static/js/2.2a29988e.chunk.js": "/gdgtvpm.org/static/js/2.2a29988e.chunk.js",
+    "static/js/2.2a29988e.chunk.js.map": "/gdgtvpm.org/static/js/2.2a29988e.chunk.js.map",
+    "static/css/3.815e7ebf.chunk.css": "/gdgtvpm.org/static/css/3.815e7ebf.chunk.css",
+    "static/js/3.e0a0a9c9.chunk.js": "/gdgtvpm.org/static/js/3.e0a0a9c9.chunk.js",
+    "static/js/3.e0a0a9c9.chunk.js.map": "/gdgtvpm.org/static/js/3.e0a0a9c9.chunk.js.map",
+    "static/js/4.6fa453b2.chunk.js": "/gdgtvpm.org/static/js/4.6fa453b2.chunk.js",
+    "static/js/4.6fa453b2.chunk.js.map": "/gdgtvpm.org/static/js/4.6fa453b2.chunk.js.map",
     "index.html": "/gdgtvpm.org/index.html",
-    "static/css/3.5e039218.chunk.css.map": "/gdgtvpm.org/static/css/3.5e039218.chunk.css.map",
+    "static/css/3.815e7ebf.chunk.css.map": "/gdgtvpm.org/static/css/3.815e7ebf.chunk.css.map",
     "static/css/main.4e276347.chunk.css.map": "/gdgtvpm.org/static/css/main.4e276347.chunk.css.map",
-    "static/js/2.63962d10.chunk.js.LICENSE.txt": "/gdgtvpm.org/static/js/2.63962d10.chunk.js.LICENSE.txt",
-    "static/media/img.e4605c62.png": "/gdgtvpm.org/static/media/img.e4605c62.png"
+    "static/js/2.2a29988e.chunk.js.LICENSE.txt": "/gdgtvpm.org/static/js/2.2a29988e.chunk.js.LICENSE.txt",
+    "static/media/Ananya.b90a73fd.jpg": "/gdgtvpm.org/static/media/Ananya.b90a73fd.jpg",
+    "static/media/Arun.74b909db.jpg": "/gdgtvpm.org/static/media/Arun.74b909db.jpg",
+    "static/media/Manikandan.b1ff4ff1.jpg": "/gdgtvpm.org/static/media/Manikandan.b1ff4ff1.jpg",
+    "static/media/Remya.9e5ebe1a.jpg": "/gdgtvpm.org/static/media/Remya.9e5ebe1a.jpg",
+    "static/media/Vijay.ed4187f8.jpg": "/gdgtvpm.org/static/media/Vijay.ed4187f8.jpg",
+    "static/media/senthil.7d702279.jpg": "/gdgtvpm.org/static/media/senthil.7d702279.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82444a2e.js",
-    "static/js/2.63962d10.chunk.js",
+    "static/js/runtime-main.207f40a1.js",
+    "static/js/2.2a29988e.chunk.js",
     "static/css/main.4e276347.chunk.css",
-    "static/js/main.b8cd2f04.chunk.js"
+    "static/js/main.5ca0034c.chunk.js"
   ]
 }
