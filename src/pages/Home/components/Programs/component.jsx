@@ -7,7 +7,6 @@ import "./style.css";
 
 function Program(props) {
   const ref = useRef();
-
   const refClassName = useFadeIn(ref, {
     threshold: [0.25],
     direction: "up",
@@ -59,18 +58,28 @@ export default function Programs() {
     },
   ];
 
+  const ref = useRef();
+  const refClassName = useFadeIn(ref, {
+    threshold: [0.75],
+    direction: "up",
+    delay: 100,
+  });
+
   return (
     <Container>
       <SectionHeader
         title="Programs"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi."
       />
-      <div className="ProgramDays">
+      <div ref={ref} className={refClassName + " ProgramDays"}>
         <Button type="button" onClick={() => setDay(1)} selected={day === 1}>
-          Day 1
+          Mar 6th
         </Button>
         <Button type="button" onClick={() => setDay(2)} selected={day === 2}>
-          Day 2
+          Apr 3th
+        </Button>
+        <Button type="button" onClick={() => setDay(3)} selected={day === 3}>
+          Next
         </Button>
       </div>
       {(day === 1 ? day1programs : day2programs).map((item, index) => (

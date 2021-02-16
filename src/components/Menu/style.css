@@ -1,6 +1,5 @@
 .Nav {
-  flex-grow: 1;
-  text-align: right;
+  flex-shrink: 1;
 }
 
 .Nav ul {
@@ -9,13 +8,19 @@
   padding: 0;
   margin: 0;
 }
-
-.Nav li {
+.NavDekstop li {
   display: inline-block;
   padding: 10px 10px;
+  text-align: right;
 }
-.Nav li:not(:first-child) {
+.NavDekstop li:not(:first-child) {
   margin-left: 10px;
+}
+
+.NavMobile li {
+  display: block;
+  text-align: left;
+  margin: 0 20px 20px;
 }
 
 .Link {
@@ -28,7 +33,6 @@
   position: relative;
   color: var(--white);
 }
-
 .Link:after {
   content: "";
   background: linear-gradient(to right, var(--link-active-color), var(--link-color) 70%);
@@ -40,12 +44,16 @@
   transition: .15s all ease-in-out;
 }
 
-.active a {
+.NavMobile .Link {
+  color: var(--button-bg-color);
+}
+
+.NavActive .Link {
   color: var(--link-hover-color);
 }
 
 .Link:hover:after,
-.active .Link:after {
+.NavActive .Link:after {
   width: 100%;
 }
 
@@ -55,6 +63,10 @@
   padding-right: 20px;
   color: var(--link-color);
 }
+.NavMobile .cta .Link,
+.NavMobile .cta .Link:hover {
+  color: var(--button-bg-color);
+}
 
 .cta .Link:after {
   display: none;
@@ -62,4 +74,43 @@
 
 .cta .Link:hover {
   color: var(--white);
+}
+
+.NavOpen,.NavClose {
+  width: 46px;
+  height: 46px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+.NavOpen svg {
+  color: var(--white);
+}
+.NavClose {
+  margin: 33px 15px 33px 0;
+}
+.NavClose svg {
+  color: var(--link-color);
+}
+.NavClose:hover svg {
+  color: var(--link-NavActive-color);
+}
+
+.NavFloating {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 320px;
+  text-align: right;
+  background-color: var(--text-color);
+  opacity: 0.01;
+  transform: translateX(320px);
+}
+.NavFloating__Open {
+  transition: all 0.3s ease;
+  opacity: 1;
+  transform: translateX(0);
 }

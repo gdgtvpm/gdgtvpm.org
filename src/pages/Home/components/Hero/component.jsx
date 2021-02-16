@@ -37,7 +37,7 @@ export default function Hero() {
             Our Eighth Year<br /> Anniversary
           </h1>
           <span ref={venueRef} className={venueClassName + " Venue"}>
-            December 5th-6th. Live, on Youtube!
+            Series of events every month from Mar 6th.
           </span>
           <Button ref={registerRef} href="/" className={registerClassName}>
             Register Now

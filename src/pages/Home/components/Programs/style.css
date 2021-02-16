@@ -16,6 +16,10 @@
   color: var(--heading-color);
 }
 
+.Container .ProgramItem:last-child {
+  margin-bottom: 200px;
+}
+
 .ProgramTime {
   margin-bottom: 1rem;
   line-height: 1;
